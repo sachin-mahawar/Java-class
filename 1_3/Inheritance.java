@@ -23,9 +23,12 @@ class Teacher extends Person{
 }
 
 public class Inheritance{
-
     public static void main(String[] args){
         Teacher t = new Teacher("Ray", "Male", 25, "Dales");
         System.out.println(t.getName());
+
+
     }
+
+
 }
